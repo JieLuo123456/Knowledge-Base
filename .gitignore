@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Qdrant local storage (if any)
+qdrant_storage/
+
+# Data docs (keep sample files via negation)
+data/docs/*
+!data/docs/README.md
+!data/docs/sample_dms.md
+
+# Logs
+*.log
