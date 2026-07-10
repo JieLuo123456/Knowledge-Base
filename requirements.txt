@@ -1,0 +1,24 @@
+# Core framework
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# Settings / config
+pydantic-settings==2.3.4
+pydantic==2.7.4
+
+# Vector store client
+qdrant-client==1.9.1
+
+# OpenAI-compatible client (Embedding + LLM)
+openai==1.35.3
+
+# Document loaders
+pypdf==4.2.0
+
+# Utilities
+httpx==0.27.0
+python-multipart==0.0.9
+
+# Testing
+pytest==8.2.2
+pytest-asyncio==0.23.7
